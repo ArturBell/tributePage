@@ -1,0 +1,68 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(188, 210, 210);
+}
+img {
+  display: block;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+h1 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 7vh;
+}
+#img-div {
+  background-image: url(https://archive.thedali.org/mwebimages/Collection%20Images/OILS_images%20saved%20for%20Web/2007.10_Disintegration_web.jpg);
+}
+#img-caption {
+  background-color: lightgray;
+  text-align: center;
+  max-width: 690px;
+  align-items: center;
+  margin: auto;
+  font-size: 2vh;
+  padding: 1px 5px 1px 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+p {
+  margin: auto;
+  padding: 35px 25px 35px 25px;
+  align-items: center;
+  font-size: 3vh;
+  text-align: justify;
+  background-color: rgba(18, 17, 17, 0.611);
+  text-indent: 1.5em;
+  display: block;
+  max-width: 150vh;
+  border-radius: 10px;
+}
+.tribute-info {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  ), url(https://i.pinimg.com/originals/7d/88/28/7d88289bb7ab5b146df9eefca17d5990.jpg);
+  height: auto;
+  max-width: 100%;
+  color: white;
+}
+h4 {
+  font-size: 3vh;
+  text-align: center;
+}
+#tribute-link {
+  text-decoration: none;
+  margin-top: 0px;
+  font-size: 3vh;
+}
+#tribute-link:hover {
+color: red; 
+}
